@@ -179,6 +179,10 @@ figure {
     display: flex;
     flex-wrap: wrap;
 }
+.contenido-blog a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 .blog,
 .cursos {
@@ -187,6 +191,10 @@ figure {
     flex-basis: 100%; */
     flex: 0 0 100%;
     /* revisar contenedor y el width */
+}
+.cursos-lista a:hover {
+    text-decoration: underline;
+
 }
 
 .cursos {
@@ -314,6 +322,9 @@ figure {
     border: 1px solid #e1e1e1;
     padding: 1rem;
 }
+input[type="submit"]:hover {
+    text-decoration: underline;
+}
 
 .formulario-contacto textarea {
     height: 20rem;
@@ -333,9 +344,17 @@ figure {
         justify-content: space-around;
         align-items: center;
     }
+    .barra a:hover{
+        text-decoration: underline;
+    }
     .navegacion a {
         display: inline;
         margin-right: 2rem;
+        
+    }
+    .navegacion a:hover {
+
+        text-decoration: underline;
     }
     .navegacion a:last-of-type {
         margin: 0;
